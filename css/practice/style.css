@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(24, 24, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    width: 500px;
+    background-color: #0e0e0e;
+    text-align: center;
+    border-radius: 7px;
+}
+.logo {
+    width: 100px;
+    margin: 20px auto;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.login-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-btn {
+    background-color: #121212;
+    border: 1px solid #878787;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    border: 1px solid white;
+}
+
+.divider {
+    margin: 20px ;
+    border: none;
+    border-top: 1px solid #333;
+}
+
+form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form label {
+    width: 250px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+form input {
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #121212;
+    color: white;
+    font-weight:300px;
+}
+
+form input:hover {
+    border: 1px solid white;
+}
+
+
+.continue-btn {
+    width: 250px;
+    margin: 0 auto;
+    border-radius:25px;
+    padding: 10px;
+    background-color: #3BB5D4;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background-color: #078AAB;
+}
+
+p {
+    margin: 20px 15px;
+    font-size: 11px;
+    color: #aaa;
+}
+
+.sign-up {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up:hover {
+    color: #078AAB;
+}

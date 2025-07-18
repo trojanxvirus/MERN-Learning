@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*1. Universal Selectors */
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* 2. Type Selector */
+        p {
+            font-size: 16px;
+            margin: 20px 20px 10px 20px;
+        }
+
+        /* 3. Class Selector  */
+        .high {
+            background-color: #fff;
+        }
+
+        /* 4. ID selectore */
+        #header {
+            background-color: #860303;
+        }
+
+        /* 5. Attribute Selector  */
+        input [type="text"]{
+            border: 1px solid blue;
+        }
+
+        /* <!---Advanced Optional---> */
+        /* 6. Descendant Selector */
+        article p {
+            font-style: italic;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        /* 7. Child Selector ---> direct child */
+        div > p {
+            background-color: orange;
+        }
+
+        /* 8. Adjacent Sibling Selector  */
+        h1 + p {
+            font-weight: bold;
+        }
+
+        /* 9.General Sibling Selector */
+        h2~p{
+            color: red;
+        }
+
+        /* 10. Pseudo-class Selector */
+        a:hover {
+            background-color: green;
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+
+        /* 11. Pseudo-element Selector */
+        p::first-letter {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        /* 12.Grouping Selector */
+        h1, h2, h3 {
+            color: violet;
+        }
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
