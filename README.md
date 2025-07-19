@@ -10,8 +10,8 @@ Hi! I’m Atul Tushar, and this repo tracks my learning journey as I master the 
 |------------|--------|
 | HTML       | ✅ Completed |
 | CSS        | ✅ Completed |
-| Tailwind CSS | 🟡 In Progress |
-| JavaScript | 🔜 Starting Soon |
+| Tailwind CSS | ✅ Completed |
+| JavaScript | 🟡 In Progress |
 | React.js   | 🔜 Coming Soon |
 | Node.js & Express | 🔜 Coming Soon |
 | MongoDB    | 🔜 Coming Soon |
