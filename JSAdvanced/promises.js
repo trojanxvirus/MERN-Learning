@@ -14,9 +14,9 @@ function fetchData() {
 //How do we consume promise
 
 // let response = fetchData();
-// console.log(response);
+// console.log(response);a.
 fetchData()
     .then((data)=> console.log(data))
-    .catch((error)=>console.error(error))
+    .catch((error)=>console.error(error));
 
 
