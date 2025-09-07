@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev" : "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "express",
@@ -15,7 +15,10 @@
   "author": "atul",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
